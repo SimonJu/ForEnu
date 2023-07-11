@@ -1,0 +1,106 @@
+/* Add some basic styling to your birthday website */
+
+body {
+  font-family: Georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #964B00;
+}
+
+.test {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(aweekend2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: -12px;
+  text-align: center;
+  color: white;
+}
+
+.alignment {
+  position: relative;
+  right: 0;
+  top: 50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.navbar {
+  margin: 0 auto;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #808080;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #666666;
+}
+
+.overlay {
+  position: relative;
+  top: 50px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay-content {
+  margin-bottom: 20px;
+}
+
+#picture-container {
+  width: 150px;
+  height: 150px;
+}
+
+.button {
+  background-color: #8B4513;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #654321;
+}

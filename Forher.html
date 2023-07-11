@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website For Enu</title>
+  <link rel="stylesheet" type="text/css" href="Forher.css">
+</head>
+<body>
+  <header>
+    <img src="Enu.jpg" alt="Enu" class="alignment">
+    <h1 class="test">Happy 20th Birthday Enu</h1>
+    <div class="overlay">
+      <div class="overlay-content">
+        <img src="" alt="Random Picture" id="picture-container">
+        <p>I hope cat pictures still make you happy.</p>
+        <p>Click the button below to generate a random cat picture:</p>
+        <button class="button" onclick="generatePicture()">Generate Cat Picture 🐱</button>
+        <p id="quote"></p>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="navbar"> 
+        <nav>
+          <ul>
+            <li><a href="about.html" target="_self">Message From SeaMon 👋</a></li>
+            <li><a href="gallery.html" target="_self">Gallery 📷</a></li>
+            <li><a href="dentist.html" target="_self"> For Motivation 🦷</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    function generatePicture() {
+      var pictures = [
+        "Cat1.png",
+        "Cat2.png",
+        "Cat3.png",
+        "Cat4.png",
+        "Cat5.png",
+        "Cat6.png",
+        "Cat7.png"
+      ];
+
+      var randomNumber = Math.floor(Math.random() * pictures.length);
+      var randomPicture = pictures[randomNumber];
+
+      document.getElementById("picture-container").src = randomPicture;
+    }
+  </script>
+</body>
+</html>
